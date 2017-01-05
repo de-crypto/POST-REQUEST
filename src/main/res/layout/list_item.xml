@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/a"
+        android:height="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Failed Validations :"
+        android:contentDescription="Failed Validations" />
+
+    <TextView
+        android:id="@+id/fv"
+        android:height="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Failed Validations"
+        android:contentDescription="Failed Validations"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/b"
+        android:height="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="@color/colorAccent"
+        android:text="Is Success :"
+        android:contentDescription="Is Success" />
+    <TextView
+        android:id="@+id/success"
+        android:height="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="@color/colorAccent"
+        android:text="Is Success "
+        android:contentDescription="Is Success"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#5d0d5d"
+        android:textStyle="bold"
+        android:text="Message :"
+        android:contentDescription="Message" />
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#5d0d5d"
+        android:textStyle="bold"
+        android:text="Message"
+        android:contentDescription="Message"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#5d5e5d"
+        android:textStyle="bold"
+        android:text="Result :"
+        android:contentDescription="Result" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#5d5e5d"
+        android:textStyle="bold"
+        android:text="Result"
+        android:contentDescription="Result"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1e3e1e"
+        android:textStyle="bold"
+        android:height="30dp"
+        android:text="APIkey :"
+        android:contentDescription="APIkey" />
+    <TextView
+        android:id="@+id/apikey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1e3e1e"
+        android:textStyle="bold"
+        android:height="30dp"
+        android:text="APIkey"
+        android:contentDescription="APIkey"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1a6f4f"
+        android:height="30dp"
+        android:textStyle="bold"
+        android:text="API Token :"
+        android:contentDescription="API Token" />
+    <TextView
+        android:id="@+id/apitoken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1a6f4f"
+        android:height="30dp"
+        android:textStyle="bold"
+        android:text="API Token"
+        android:contentDescription="API Token"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4e3e1e"
+        android:height="30dp"
+        android:textStyle="bold"
+        android:text="APK URL :"
+        android:contentDescription="APK URL" />
+
+    <TextView
+        android:id="@+id/apkurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4e3e1e"
+        android:height="40dp"
+        android:textStyle="bold"
+        android:text="APK URL"
+        android:contentDescription="APK URL"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/h"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#4e3e1e"
+        android:textStyle="bold"
+        android:text="attendance :"
+        android:contentDescription="attendance" />
+    <TextView
+        android:id="@+id/attend"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#4e3e1e"
+        android:textStyle="bold"
+        android:text="attendance"
+        android:contentDescription="attendance"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/i"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#be3e1e"
+        android:textStyle="bold"
+        android:text="Company ID :"
+        android:contentDescription="Company ID" />
+    <TextView
+        android:id="@+id/companyid"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#be3e1e"
+        android:textStyle="bold"
+        android:text="Company ID"
+        android:contentDescription="Company ID"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/j"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#f5363f"
+        android:textStyle="bold"
+        android:text="DownloadDataManager :"
+        android:contentDescription="DownloadDataManager" />
+    <TextView
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#f5363f"
+        android:textStyle="bold"
+        android:text="DownloadDataManager"
+        android:contentDescription="DownloadDataManager"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#ae3e1e"
+        android:textStyle="bold"
+        android:text="Emplcode :"
+        android:contentDescription="Emplcode" />
+    <TextView
+        android:id="@+id/emplcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#ae3e1e"
+        android:textStyle="bold"
+        android:text="Emplcode"
+        android:contentDescription="Emplcode"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#4e3e1e"
+        android:textStyle="bold"
+        android:text="Name :"
+        android:contentDescription="Name" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#4e3e1e"
+        android:textStyle="bold"
+        android:text="Name"
+        android:contentDescription="Name"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/m"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#4e3e1e"
+        android:textStyle="bold"
+        android:text="Login Message :"
+        android:contentDescription="Login Message" />
+    <TextView
+        android:id="@+id/loginmessage"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#4e3e1e"
+        android:textStyle="bold"
+        android:text="Login Message"
+        android:contentDescription="Login Message"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4e3e1e"
+        android:textStyle="bold"
+        android:height="30dp"
+        android:text="Mobile No. :"
+        android:contentDescription="Mobile No." />
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#4e3e1e"
+        android:textStyle="bold"
+        android:height="30dp"
+        android:text="Mobile No."
+        android:contentDescription="Mobile No."
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/o"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#23e133"
+        android:textStyle="bold"
+        android:text="User ID :"
+        android:contentDescription="User ID" />
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="wrap_content"
+        android:height="30dp"
+        android:layout_height="wrap_content"
+        android:textColor="#23e133"
+        android:textStyle="bold"
+        android:text="User ID"
+        android:contentDescription="User ID"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#3d33ad"
+        android:textStyle="bold"
+        android:text="Status"
+        android:contentDescription="Status" />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textColor="#3d33ad"
+        android:textStyle="bold"
+        android:text="Status"
+        android:contentDescription="Status"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
